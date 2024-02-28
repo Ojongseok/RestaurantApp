@@ -14,3 +14,11 @@ dependencyResolutionManagement {
 }
 rootProject.name = "RestaurantApp"
 include ':app'
+include ':core'
+include ':ui_compontents'
+include ':features:feed'
+include ':features:detail'
+include ':libraries:storage'
+include ':libraries:network'
+include ':libraries:network_contract'
+include ':libraries:storage_contract'
